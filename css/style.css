@@ -1,3 +1,19 @@
+.most_sold_items .title, .shop_our_offers .title {
+  color: #000;
+  text-align: center;
+  font-size: 42px;
+  font-family: Readex Pro;
+  line-height: 52.5px;
+}
+
+.most_sold_items .sub_title, .shop_our_offers .sub_title {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: Readex Pro;
+  line-height: 16.8px;
+}
+
 .container {
   max-width: 1294px;
 }
@@ -17,6 +33,184 @@ header .nav_icons {
 }
 header .navbar {
   padding: 30px 0;
+}
+
+.shop_our_offers .laptop_grid {
+  max-width: 639px;
+  height: 472px;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  margin-bottom: 72px;
+}
+.shop_our_offers .laptop_grid img {
+  position: relative;
+  left: 42px;
+}
+.shop_our_offers .laptop_grid .description {
+  max-width: 192px;
+  position: absolute;
+  right: 42px;
+}
+.shop_our_offers .laptop_grid .description h5 {
+  color: #000;
+  text-align: right;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.shop_our_offers .laptop_grid .description p {
+  color: #000;
+  text-align: right;
+  font-size: 32px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+.shop_our_offers .watch_grid {
+  max-width: 639px;
+  height: 270px;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.shop_our_offers .watch_grid .description {
+  max-width: 128px;
+  position: absolute;
+  top: 87px;
+  right: 42px;
+  left: 469px;
+}
+.shop_our_offers .watch_grid .description h5 {
+  color: #000;
+  text-align: right;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.shop_our_offers .watch_grid .description p {
+  color: #000;
+  text-align: right;
+  font-size: 32px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+.shop_our_offers .phone_grid {
+  max-width: 312px;
+  height: 792px;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+.shop_our_offers .phone_grid img {
+  position: absolute;
+  top: 144px;
+  left: 16px;
+}
+.shop_our_offers .phone_grid .description {
+  max-width: 250px;
+  position: absolute;
+  top: 552px;
+  right: 31px;
+  left: 31px;
+  bottom: 144px;
+}
+.shop_our_offers .phone_grid .description h5 {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.shop_our_offers .phone_grid .description p {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+.shop_our_offers .tablet_grid {
+  max-width: 312px;
+  height: 792px;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+.shop_our_offers .tablet_grid img {
+  position: absolute;
+  top: 252px;
+}
+.shop_our_offers .tablet_grid .description {
+  max-width: 233px;
+  position: absolute;
+  top: 114px;
+  right: 40px;
+  left: 39px;
+  bottom: 582px;
+}
+.shop_our_offers .tablet_grid .description h5 {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.shop_our_offers .tablet_grid .description p {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+
+.most_sold_items {
+  padding-top: 72px;
+  padding-bottom: 27px;
+}
+.most_sold_items .sub_title {
+  margin-bottom: 59px;
+}
+.most_sold_items .product_card img {
+  margin-bottom: 37px;
+}
+.most_sold_items .product_card h3 {
+  color: #000;
+  font-size: 22px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+}
+.most_sold_items .product_card p {
+  color: #4B4B4B;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+  max-width: 261px;
+  min-height: 51px;
+}
+.most_sold_items .product_card span {
+  color: #000;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
 }
 
 /*# sourceMappingURL=style.css.map */

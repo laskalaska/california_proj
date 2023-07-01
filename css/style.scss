@@ -2,6 +2,22 @@
 //@import "normalize";
 //@import ""; fonts
 
+%title_section_fonts {
+  color: #000;
+  text-align: center;
+  font-size: 42px;
+  font-family: Readex Pro;
+  line-height: 52.5px;
+}
+
+%sub_title_section_fonts {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: Readex Pro;
+  line-height: 16.8px;
+}
+
 .container {
   max-width: 1294px;
 }
@@ -9,6 +25,7 @@
 header {
   li {
     margin-left: 33px;
+
     a {
       color: #000;
       font-size: 14px;
@@ -24,6 +41,225 @@ header {
 
   .navbar {
     padding: 30px 0;
+  }
+}
+
+.shop_our_offers {
+  .title {
+    @extend %title_section_fonts;
+  }
+
+  .sub_title {
+    @extend %sub_title_section_fonts;
+  }
+
+  .laptop_grid {
+    max-width: 639px;
+    height: 472px;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-bottom: 72px;
+
+    img {
+      position: relative;
+      left: 42px;
+    }
+
+    .description {
+      max-width: 192px;
+      position: absolute;
+      right: 42px;
+
+      h5 {
+        color: #000;
+        text-align: right;
+        font-size: 15px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.2px;
+      }
+
+      p {
+        color: #000;
+        text-align: right;
+        font-size: 32px;
+        font-family: Readex Pro;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38.4px;
+      }
+    }
+  }
+
+  .watch_grid {
+    max-width: 639px;
+    height: 270px;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+
+    .description {
+      max-width: 128px;
+      position: absolute;
+      top: 87px;
+      right: 42px;
+      left: 469px;
+
+      h5 {
+        color: #000;
+        text-align: right;
+        font-size: 15px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.2px;
+      }
+
+      p {
+        color: #000;
+        text-align: right;
+        font-size: 32px;
+        font-family: Readex Pro;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38.4px;
+      }
+    }
+  }
+
+  .phone_grid {
+    max-width: 312px;
+    height: 792px;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 144px;
+      left: 16px;
+    }
+
+    .description {
+      max-width: 250px;
+      position: absolute;
+      top: 552px;
+      right: 31px;
+      left: 31px;
+      bottom: 144px;
+
+      h5 {
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.2px;
+      }
+
+      p {
+        color: #000;
+        text-align: center;
+        font-size: 32px;
+        font-family: Readex Pro;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38.4px;
+      }
+    }
+  }
+
+  .tablet_grid {
+    max-width: 312px;
+    height: 792px;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 252px;
+    }
+
+    .description {
+      max-width: 233px;
+      position: absolute;
+      top: 114px;
+      right: 40px;
+      left: 39px;
+      bottom: 582px;
+
+      h5 {
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.2px;
+      }
+
+      p {
+        color: #000;
+        text-align: center;
+        font-size: 32px;
+        font-family: Readex Pro;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38.4px;
+      }
+    }
+  }
+}
+
+.most_sold_items {
+  padding-top: 72px;
+  padding-bottom: 27px;
+
+  .title {
+    @extend %title_section_fonts;
+  }
+
+  .sub_title {
+    @extend %sub_title_section_fonts;
+    margin-bottom: 59px;
+  }
+
+
+  .product_card {
+    img {
+      margin-bottom: 37px;
+    }
+
+    h3 {
+      color: #000;
+      font-size: 22px;
+      font-family: Readex Pro;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27.5px;
+    }
+
+    p {
+      color: #4B4B4B;
+      font-size: 14px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16.8px;
+      max-width: 261px;
+      min-height: 51px;
+    }
+
+    span {
+      color: #000;
+      font-size: 18px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21.6px;
+    }
   }
 }
 
