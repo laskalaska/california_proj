@@ -38,6 +38,76 @@ header .navbar {
   padding: 30px 0;
 }
 
+.main_slider .container {
+  background-color: #DCE5E2;
+  border-radius: 16px;
+}
+.main_slider .container h1 {
+  color: #000;
+  font-size: 58px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 69.6px;
+  margin-bottom: 19px;
+  margin-top: 145px;
+  margin-left: 56px;
+}
+.main_slider .container p {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin-bottom: 45px;
+  margin-left: 56px;
+}
+.main_slider .container a {
+  border-radius: 200px;
+  border: 1px solid #000;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-transform: capitalize;
+  padding: 14px 63px;
+  margin-left: 56px;
+}
+.main_slider .container .owl-dots {
+  position: absolute;
+  right: 307px;
+  bottom: 24px;
+}
+.main_slider .container .owl-dots .owl-dot span {
+  display: block;
+  width: 194px;
+  height: 2px;
+  background: #D6D6D6;
+  margin-left: 34px;
+}
+.main_slider .container .owl-dots .owl-dot.active span {
+  background: black;
+}
+.main_slider .container .owl-nav .owl-prev {
+  background-image: url("../images/left_arrow_slider.svg");
+  width: 14px;
+  height: 26px;
+  position: absolute;
+  top: 262px;
+}
+.main_slider .container .owl-nav .owl-next {
+  background-image: url("../images/right_arrow_slider.svg");
+  width: 14px;
+  height: 26px;
+  position: absolute;
+  top: 262px;
+  right: 0;
+}
+
 .shop_our_offers .laptop_grid {
   height: 472px;
   box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
