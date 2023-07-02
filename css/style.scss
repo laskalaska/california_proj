@@ -319,3 +319,43 @@ header {
     }
   }
 }
+
+.ideas_section {
+  padding-top: 47px;
+  padding-bottom: 24px;
+
+  .title {
+    @extend %title_section_fonts;
+  }
+
+  .sub_title {
+    @extend %sub_title_section_fonts;
+    margin-bottom: 56px;
+  }
+
+  img{
+    margin-bottom: 73px;
+  }
+
+  .description{
+    p{
+      color: #000;
+      font-size: 24px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 28px;
+    }
+  }
+
+  a{
+    color: #000;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-transform: capitalize;
+  }
+}
