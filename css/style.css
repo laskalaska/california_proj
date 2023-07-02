@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap");
-.ideas_section .title, .explore_categories .title, .most_sold_items .title, .shop_our_offers .title {
+.search_subscribe .subscribe_container h3, .search_subscribe .title, .ideas_section .title, .explore_categories .title, .most_sold_items .title, .shop_our_offers .title {
   color: #000;
   text-align: center;
   font-size: 42px;
@@ -267,7 +267,7 @@ header .navbar {
 .ideas_section .sub_title {
   margin-bottom: 56px;
 }
-.ideas_section img {
+.ideas_section .left_img {
   margin-bottom: 73px;
 }
 .ideas_section .description p {
@@ -287,6 +287,95 @@ header .navbar {
   font-weight: 400;
   line-height: 28.8px;
   text-transform: capitalize;
+}
+
+.search_subscribe {
+  padding-top: 51px;
+  padding-bottom: 19px;
+}
+.search_subscribe .title {
+  margin-bottom: 24px;
+}
+.search_subscribe .search_container form {
+  border-radius: 100px;
+  border: 1px solid #C5C5C5;
+  background: #F8F9FA;
+  display: flex;
+  margin-bottom: 30px;
+}
+.search_subscribe .search_container form button {
+  border: none;
+  background-color: transparent;
+  margin-left: 17px;
+}
+.search_subscribe .search_container form input {
+  width: 100%;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  padding: 22px 20px;
+}
+.search_subscribe .search_suggest_links a {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+  border-radius: 200px;
+  border: 1px solid #C5C5C5;
+  background: #FFF;
+  padding: 12px 22px;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+.search_subscribe .subscribe_container {
+  padding-top: 47px;
+  padding-bottom: 43px;
+  border-radius: 16px;
+  background: #DCE5E2;
+}
+.search_subscribe .subscribe_container p {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin-bottom: 14px;
+}
+.search_subscribe .subscribe_container img {
+  margin-bottom: 18px;
+}
+.search_subscribe .subscribe_container form {
+  border-radius: 54px;
+  border: 1px solid #000;
+  background: transparent;
+  display: flex;
+  margin: auto;
+  max-width: 400px;
+}
+.search_subscribe .subscribe_container form button {
+  border-radius: 0px 200px 200px 0px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+  padding: 16px 33px 17px 32px;
+  border: none;
+  width: 115px;
+}
+.search_subscribe .subscribe_container form input {
+  width: 285px;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  padding: 16px 0 17px 32px;
 }
 
 /*# sourceMappingURL=style.css.map */
