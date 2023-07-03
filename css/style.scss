@@ -555,11 +555,23 @@ header {
 }
 
 footer {
+  background: #F8F9FA;
+
+  hr {
+    width: 1350px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #DCE5E2;
+    position: relative;
+    left: -50px;
+    margin-bottom: 52px;
+  }
 
   .logo {
-    img{
+    img {
       margin-bottom: 18px;
     }
+
     p {
       color: #000;
       font-size: 16px;
@@ -573,6 +585,8 @@ footer {
   .footer_links {
     ul {
       list-style: none;
+      margin-bottom: 78px;
+
       li {
         color: #000;
         font-size: 22px;
@@ -581,9 +595,11 @@ footer {
         font-weight: 400;
         line-height: 27.5px;
         margin-bottom: 14px;
+
         &:first-of-type {
           margin-bottom: 19px;
         }
+
         a {
           color: #000;
           font-size: 17px;

@@ -448,6 +448,18 @@ header .navbar {
   padding: 16px 0 17px 32px;
 }
 
+footer {
+  background: #F8F9FA;
+}
+footer hr {
+  width: 1350px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #DCE5E2;
+  position: relative;
+  left: -50px;
+  margin-bottom: 52px;
+}
 footer .logo img {
   margin-bottom: 18px;
 }
@@ -461,6 +473,7 @@ footer .logo p {
 }
 footer .footer_links ul {
   list-style: none;
+  margin-bottom: 78px;
 }
 footer .footer_links ul li {
   color: #000;
