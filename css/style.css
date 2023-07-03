@@ -448,4 +448,39 @@ header .navbar {
   padding: 16px 0 17px 32px;
 }
 
+footer .logo img {
+  margin-bottom: 18px;
+}
+footer .logo p {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+footer .footer_links ul {
+  list-style: none;
+}
+footer .footer_links ul li {
+  color: #000;
+  font-size: 22px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+  margin-bottom: 14px;
+}
+footer .footer_links ul li:first-of-type {
+  margin-bottom: 19px;
+}
+footer .footer_links ul li a {
+  color: #000;
+  font-size: 17px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
 /*# sourceMappingURL=style.css.map */
