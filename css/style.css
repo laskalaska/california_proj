@@ -320,6 +320,11 @@ header .navbar {
 .most_sold_items .sub_title {
   margin-bottom: 59px;
 }
+@media screen and (max-width: 834px) {
+  .most_sold_items .product_card {
+    text-align: center;
+  }
+}
 .most_sold_items .product_card img {
   margin-bottom: 37px;
 }
@@ -333,7 +338,6 @@ header .navbar {
 }
 .most_sold_items .product_card p {
   color: #4B4B4B;
-  max-width: 261px;
   min-height: 51px;
 }
 .most_sold_items .product_card span {
