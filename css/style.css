@@ -1,4 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap");
+.search_subscribe .subscribe_container form button, .search_subscribe .search_suggest_links a, .most_sold_items .product_card p, header li a {
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+footer .logo p, .search_subscribe .subscribe_container p, .main_slider .container p {
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.explore_categories .category_card a, .most_sold_items .product_card span, .main_slider .container a {
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.shop_our_offers .tablet_grid .description p, .shop_our_offers .phone_grid .description p, .shop_our_offers .watch_grid .description p, .shop_our_offers .laptop_grid .description p {
+  font-size: 32px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+
 .search_subscribe .subscribe_container h3, .search_subscribe .title, .ideas_section .title, .explore_categories .title, .most_sold_items .title, .shop_our_offers .title {
   color: #000;
   text-align: center;
@@ -26,9 +58,6 @@ header li {
 }
 header li a {
   color: #000;
-  font-size: 14px;
-  font-family: Inter;
-  line-height: 16.8px;
   text-transform: uppercase;
 }
 header .nav_icons {
@@ -55,11 +84,6 @@ header .navbar {
 }
 .main_slider .container p {
   color: #000;
-  font-size: 16px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.2px;
   margin-bottom: 45px;
   margin-left: 56px;
 }
@@ -68,11 +92,6 @@ header .navbar {
   border: 1px solid #000;
   color: #000;
   text-align: center;
-  font-size: 18px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21.6px;
   text-transform: capitalize;
   padding: 14px 63px;
   margin-left: 56px;
@@ -135,11 +154,6 @@ header .navbar {
 .shop_our_offers .laptop_grid .description p {
   color: #000;
   text-align: right;
-  font-size: 32px;
-  font-family: Readex Pro;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38.4px;
 }
 .shop_our_offers .watch_grid {
   height: 270px;
@@ -165,11 +179,6 @@ header .navbar {
 .shop_our_offers .watch_grid .description p {
   color: #000;
   text-align: right;
-  font-size: 32px;
-  font-family: Readex Pro;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38.4px;
 }
 .shop_our_offers .phone_grid {
   height: 792px;
@@ -202,11 +211,6 @@ header .navbar {
 .shop_our_offers .phone_grid .description p {
   color: #000;
   text-align: center;
-  font-size: 32px;
-  font-family: Readex Pro;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38.4px;
 }
 .shop_our_offers .tablet_grid {
   height: 792px;
@@ -238,11 +242,6 @@ header .navbar {
 .shop_our_offers .tablet_grid .description p {
   color: #000;
   text-align: center;
-  font-size: 32px;
-  font-family: Readex Pro;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38.4px;
 }
 
 .most_sold_items {
@@ -265,21 +264,11 @@ header .navbar {
 }
 .most_sold_items .product_card p {
   color: #4B4B4B;
-  font-size: 14px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16.8px;
   max-width: 261px;
   min-height: 51px;
 }
 .most_sold_items .product_card span {
   color: #000;
-  font-size: 18px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21.6px;
 }
 
 .explore_categories {
@@ -315,11 +304,6 @@ header .navbar {
   border: 1px solid #000;
   color: #000;
   text-align: center;
-  font-size: 18px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21.6px;
   text-transform: capitalize;
   padding: 14px 63px;
 }
@@ -387,11 +371,6 @@ header .navbar {
 }
 .search_subscribe .search_suggest_links a {
   color: #000;
-  font-size: 14px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16.8px;
   border-radius: 200px;
   border: 1px solid #C5C5C5;
   background: #FFF;
@@ -408,11 +387,6 @@ header .navbar {
 .search_subscribe .subscribe_container p {
   color: #000;
   text-align: center;
-  font-size: 16px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.2px;
   margin-bottom: 14px;
 }
 .search_subscribe .subscribe_container img {
@@ -431,11 +405,6 @@ header .navbar {
   background: #000;
   color: #FFF;
   text-align: center;
-  font-size: 14px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16.8px;
   padding: 16px 33px 17px 32px;
   border: none;
   width: 115px;
@@ -465,11 +434,6 @@ footer .logo img {
 }
 footer .logo p {
   color: #000;
-  font-size: 16px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.2px;
 }
 footer .footer_links ul {
   list-style: none;

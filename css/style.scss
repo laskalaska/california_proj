@@ -2,8 +2,44 @@
 //@import "normalize";
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap');
 
+$black_color: #000;
+$calm_green_color: #DCE5E2;
+$light-grey_color: #F8F9FA;
+
+%inter_14_font{
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+%inter_16_font{
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+%inter_18_font{
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+%redex_32_font{
+  font-size: 32px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.4px;
+}
+
 %title_section_fonts {
-  color: #000;
+  color: $black_color;
   text-align: center;
   font-size: 42px;
   font-family: Readex Pro;
@@ -12,7 +48,7 @@
 }
 
 %sub_title_section_fonts {
-  color: #000;
+  color: $black_color;
   text-align: center;
   font-size: 14px;
   font-family: Readex Pro;
@@ -29,10 +65,8 @@ header {
     margin-left: 33px;
 
     a {
-      color: #000;
-      font-size: 14px;
-      font-family: Inter;
-      line-height: 16.8px;
+      color: $black_color;
+      @extend %inter_14_font;
       text-transform: uppercase;
     }
   }
@@ -49,11 +83,11 @@ header {
 
 .main_slider {
   .container {
-    background-color: #DCE5E2;
+    background-color: $calm_green_color;
     border-radius: 16px;
 
     h1 {
-      color: #000;
+      color: $black_color;
       font-size: 58px;
       font-family: Readex Pro;
       font-style: normal;
@@ -65,26 +99,18 @@ header {
     }
 
     p {
-      color: #000;
-      font-size: 16px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 19.2px;
+      color: $black_color;
+      @extend %inter_16_font;
       margin-bottom: 45px;
       margin-left: 56px;
     }
 
     a {
       border-radius: 200px;
-      border: 1px solid #000;
-      color: #000;
+      border: 1px solid $black_color;
+      color: $black_color;
       text-align: center;
-      font-size: 18px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21.6px;
+      @extend %inter_18_font;
       text-transform: capitalize;
       padding: 14px 63px;
       margin-left: 56px;
@@ -153,7 +179,7 @@ header {
       right: 42px;
 
       h5 {
-        color: #000;
+        color: $black_color;
         text-align: right;
         font-size: 15px;
         font-family: Inter;
@@ -163,13 +189,9 @@ header {
       }
 
       p {
-        color: #000;
+        color: $black_color;
         text-align: right;
-        font-size: 32px;
-        font-family: Readex Pro;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 38.4px;
+        @extend %redex_32_font;
       }
     }
   }
@@ -187,7 +209,7 @@ header {
       left: 469px;
 
       h5 {
-        color: #000;
+        color: $black_color;
         text-align: right;
         font-size: 15px;
         font-family: Inter;
@@ -197,13 +219,9 @@ header {
       }
 
       p {
-        color: #000;
+        color: $black_color;
         text-align: right;
-        font-size: 32px;
-        font-family: Readex Pro;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 38.4px;
+        @extend %redex_32_font;
       }
     }
   }
@@ -229,7 +247,7 @@ header {
       bottom: 144px;
 
       h5 {
-        color: #000;
+        color: $black_color;
         text-align: center;
         font-size: 15px;
         font-family: Inter;
@@ -239,13 +257,9 @@ header {
       }
 
       p {
-        color: #000;
+        color: $black_color;
         text-align: center;
-        font-size: 32px;
-        font-family: Readex Pro;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 38.4px;
+        @extend %redex_32_font;
       }
     }
   }
@@ -270,7 +284,7 @@ header {
       bottom: 582px;
 
       h5 {
-        color: #000;
+        color: $black_color;
         text-align: center;
         font-size: 15px;
         font-family: Inter;
@@ -280,13 +294,9 @@ header {
       }
 
       p {
-        color: #000;
+        color: $black_color;
         text-align: center;
-        font-size: 32px;
-        font-family: Readex Pro;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 38.4px;
+        @extend %redex_32_font;
       }
     }
   }
@@ -312,7 +322,7 @@ header {
     }
 
     h3 {
-      color: #000;
+      color: $black_color;
       font-size: 22px;
       font-family: Readex Pro;
       font-style: normal;
@@ -322,22 +332,14 @@ header {
 
     p {
       color: #4B4B4B;
-      font-size: 14px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 16.8px;
+      @extend %inter_14_font;
       max-width: 261px;
       min-height: 51px;
     }
 
     span {
-      color: #000;
-      font-size: 18px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21.6px;
+      color: $black_color;
+      @extend %inter_18_font;
     }
   }
 }
@@ -357,7 +359,7 @@ header {
 
   .category_card {
     border-radius: 16px;
-    background: #F8F9FA;
+    background: $light-grey_color;
     height: 453px;
     text-align: center;
     position: relative;
@@ -369,7 +371,7 @@ header {
     }
 
     h3 {
-      color: #000;
+      color: $black_color;
       text-align: center;
       font-size: 28px;
       font-family: Readex Pro;
@@ -381,14 +383,10 @@ header {
 
     a {
       border-radius: 200px;
-      border: 1px solid #000;
-      color: #000;
+      border: 1px solid $black_color;
+      color: $black_color;
       text-align: center;
-      font-size: 18px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 21.6px;
+      @extend %inter_18_font;
       text-transform: capitalize;
       padding: 14px 63px;
     }
@@ -421,7 +419,7 @@ header {
 
   .description {
     p {
-      color: #000;
+      color: $black_color;
       font-size: 24px;
       font-family: Inter;
       font-style: normal;
@@ -432,7 +430,7 @@ header {
   }
 
   a {
-    color: #000;
+    color: $black_color;
     font-size: 24px;
     font-family: Inter;
     font-style: normal;
@@ -456,7 +454,7 @@ header {
     form {
       border-radius: 100px;
       border: 1px solid #C5C5C5;
-      background: #F8F9FA;
+      background: $light-grey_color;
       display: flex;
       margin-bottom: 30px;
 
@@ -479,12 +477,8 @@ header {
 
   .search_suggest_links {
     a {
-      color: #000;
-      font-size: 14px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 16.8px;
+      color: $black_color;
+      @extend %inter_14_font;
       border-radius: 200px;
       border: 1px solid #C5C5C5;
       background: #FFF;
@@ -498,20 +492,16 @@ header {
     padding-top: 47px;
     padding-bottom: 43px;
     border-radius: 16px;
-    background: #DCE5E2;
+    background: $calm_green_color;
 
     h3 {
       @extend %title_section_fonts;
     }
 
     p {
-      color: #000;
+      color: $black_color;
       text-align: center;
-      font-size: 16px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 19.2px;
+      @extend %inter_16_font;
       margin-bottom: 14px;
     }
 
@@ -521,7 +511,7 @@ header {
 
     form {
       border-radius: 54px;
-      border: 1px solid #000;
+      border: 1px solid $black_color;
       background: transparent;
       display: flex;
       margin: auto;
@@ -530,14 +520,10 @@ header {
 
       button {
         border-radius: 0px 200px 200px 0px;
-        background: #000;
+        background: $black_color;
         color: #FFF;
         text-align: center;
-        font-size: 14px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 16.8px;
+        @extend %inter_14_font;
         padding: 16px 33px 17px 32px;
         border: none;
         width: 115px;
@@ -555,13 +541,13 @@ header {
 }
 
 footer {
-  background: #F8F9FA;
+  background: $light-grey_color;
 
   hr {
     width: 1350px;
     height: 1px;
     flex-shrink: 0;
-    background: #DCE5E2;
+    background: $calm_green_color;
     position: relative;
     left: -50px;
     margin-bottom: 52px;
@@ -573,12 +559,8 @@ footer {
     }
 
     p {
-      color: #000;
-      font-size: 16px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 19.2px;
+      color: $black_color;
+      @extend %inter_16_font;
     }
   }
 
@@ -588,7 +570,7 @@ footer {
       margin-bottom: 78px;
 
       li {
-        color: #000;
+        color: $black_color;
         font-size: 22px;
         font-family: Readex Pro;
         font-style: normal;
@@ -601,7 +583,7 @@ footer {
         }
 
         a {
-          color: #000;
+          color: $black_color;
           font-size: 17px;
           font-family: Inter;
           font-style: normal;
