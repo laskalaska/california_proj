@@ -560,4 +560,11 @@ footer .footer_links ul li a {
   line-height: 21.6px;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
 /*# sourceMappingURL=style.css.map */

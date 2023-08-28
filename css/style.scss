@@ -549,7 +549,7 @@ header {
         display: inline-block;
         border: none;
         background-color: transparent;
-        padding: 22px 20px
+        padding: 22px 20px;
       }
     }
   }
@@ -676,4 +676,11 @@ footer {
       }
     }
   }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
