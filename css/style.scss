@@ -305,6 +305,10 @@ header {
       position: absolute;
       top: 144px;
       left: 16px;
+      @include max-screen(767px) {
+        left: auto;
+        right: 0;
+      }
     }
 
     .description {
@@ -347,6 +351,11 @@ header {
     img {
       position: absolute;
       top: 252px;
+      width: -webkit-fill-available;
+      left: -45px;
+      @include max-screen(767px) {
+        left: auto;
+      }
     }
 
     .description {

@@ -272,6 +272,12 @@ header .navbar {
   top: 144px;
   left: 16px;
 }
+@media screen and (max-width: 767px) {
+  .shop_our_offers .phone_grid img {
+    left: auto;
+    right: 0;
+  }
+}
 .shop_our_offers .phone_grid .description {
   max-width: 250px;
   position: absolute;
@@ -306,6 +312,13 @@ header .navbar {
 .shop_our_offers .tablet_grid img {
   position: absolute;
   top: 252px;
+  width: -webkit-fill-available;
+  left: -45px;
+}
+@media screen and (max-width: 767px) {
+  .shop_our_offers .tablet_grid img {
+    left: auto;
+  }
 }
 .shop_our_offers .tablet_grid .description {
   max-width: 233px;
